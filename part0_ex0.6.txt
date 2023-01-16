@@ -1,0 +1,10 @@
+title exercise 0.6
+browser->server: HTTP POST  https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+note over server: the POST request contains the new note as JSON data
+
+server-->browser: status code 201 Created
+
+note over browser: no more requests to the server
+
+note over browser: the note has been added
